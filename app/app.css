@@ -1,10 +1,13 @@
 /* app css stylesheet */
+body {
+  background-color: gray;
+}
 
+/*menu*/
 .menu {
   list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+  border-bottom: 0.5em solid purple;
+  margin: 3em 0em 0em 0em;
 }
 
 .menu:before {
@@ -22,4 +25,14 @@
 .menu > li + li:before {
   content: "|";
   padding-right: 0.3em;
+}
+
+/*subtitle*/
+.subtitle {
+  margin: 1em 2em 0em 0em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle h2 {
+  font-weight: bold;
 }

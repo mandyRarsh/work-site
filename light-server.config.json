@@ -1,0 +1,14 @@
+{
+  "port": 8000,
+  "interval": 500,
+  "delay": 0,
+  "bind": "localhost",
+  "serve": "./app",
+  "watchexps": [
+    "app/**/*.html",
+    "app/**/*.js",
+    "app/**/*.css"
+  ],
+  "quiet": true,
+  "http2": false
+}

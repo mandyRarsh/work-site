@@ -23,7 +23,7 @@
     "postupdate-deps": "bower update",
 
     "prestart": "npm install",
-    "start": "light-server -s ./app -p 8000  -w ./app",
+    "start": "light-server -c light-server.config.json",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",

@@ -11,5 +11,5 @@ angular.module('Home', ['ngRoute'])
 }])
 
 .controller('HomeCtrl', [function() {
-
+    var t = 1
 }]);
