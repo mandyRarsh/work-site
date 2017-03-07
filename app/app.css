@@ -1,28 +1,39 @@
 /* app css stylesheet */
 body {
   background-color: gray;
+  padding: 2em 0em
 }
 
 /*menu*/
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
 .menu {
-  list-style: none;
   border-bottom: 0.5em solid purple;
-  margin: 3em 0em 0em 0em;
+  text-align: center;
 }
 
-.menu:before {
-  content: "[";
+.map {
+  margin: auto;
 }
 
-.menu:after {
-  content: "]";
+ul{
+  position:relative;
+  display: inline-block;  
+  list-style: none;
+  width:100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
-.menu > li {
-  display: inline;
+.map > li {
+  display: inline-block;
 }
 
-.menu > li + li:before {
+.map > li + li:before {
   content: "|";
   padding-right: 0.3em;
 }
